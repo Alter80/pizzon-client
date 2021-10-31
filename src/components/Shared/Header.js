@@ -3,7 +3,7 @@ import { Container, Nav, Navbar, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
 import './Header.css';
-import { AiOutlineShoppingCart } from "react-icons/ai";
+import { AiOutlineShoppingCart, AiOutlinePlusCircle, AiOutlineSafety, AiOutlineContainer } from "react-icons/ai";
 
 const Header = () => {
 
@@ -44,9 +44,9 @@ const Header = () => {
                                 <small>
 
                                     <Nav.Link><Link className='text-decoration-none text-white' to="/myorders"><AiOutlineShoppingCart className='fs-4' /> My Orders</Link></Nav.Link>
-                                    <Nav.Link><Link className='text-decoration-none text-white' to="/manageallservice">Manage All Services</Link></Nav.Link>
-                                    <Nav.Link><Link className='text-decoration-none text-white' to="/manageallorders">Manage All Orders</Link></Nav.Link>
-                                    <Nav.Link><Link className='text-decoration-none text-white' to="/addservice">Add Service</Link></Nav.Link>
+                                    <Nav.Link><Link className='text-decoration-none text-white' to="/manageallservice"><AiOutlineContainer className='fs-4' /> Manage All Services</Link></Nav.Link>
+                                    <Nav.Link><Link className='text-decoration-none text-white' to="/manageallorders"><AiOutlineSafety className='fs-4' /> Manage All Orders</Link></Nav.Link>
+                                    <Nav.Link><Link className='text-decoration-none text-white' to="/addservice"><AiOutlinePlusCircle className='fs-4' /> Add Service</Link></Nav.Link>
                                 </small>
 
                             </Nav>

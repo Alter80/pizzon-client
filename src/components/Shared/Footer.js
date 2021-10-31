@@ -2,7 +2,7 @@ import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 import './Footer.css';
 import { BiTime } from "react-icons/bi";
-import { BsFacebook, BsTwitter, BsLinkedin } from "react-icons/bs";
+import { BsFacebook, BsTwitter, BsInstagram, BsLinkedin } from "react-icons/bs";
 import { Link } from 'react-router-dom';
 
 
@@ -17,6 +17,7 @@ const Footer = () => {
                     <div className='d-flex row mt-4 mb-4'>
                         <h4 className='text-muted'>Socials</h4>
                         <Link className='text-muted text-decoration-none mt-1' to="http://"><BsFacebook /><small className='ms-2'>Facebook</small> </Link>
+                        <Link className='text-muted text-decoration-none mt-1' to="http://"><BsInstagram /><small className='ms-2'>Instagram</small> </Link>
                         <Link className='text-muted text-decoration-none mt-1' to="http://"><BsLinkedin /><small className='ms-2'>Linkedin</small> </Link>
                         <Link className='text-muted text-decoration-none mt-1' to="http://"><BsTwitter /><small className='ms-2'>Twitter</small> </Link>
                     </div>
