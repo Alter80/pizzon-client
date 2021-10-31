@@ -1,6 +1,8 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import MobileApp from '../MobileApp/MobileApp';
+import NewsLetter from '../NewsLetter/NewsLetter';
 import OfferedItems from '../OfferedItems/OfferedItems';
 import './Home.css';
 
@@ -9,7 +11,7 @@ const Home = () => {
         <div>
             <section className="hero-banner bg-light py-5 mb-4">
                 <div className="container">
-                    <div className="row row align-items-center">
+                    <div className="row align-items-center">
                         <div className="col-lg-5 offset-lg-1 order-lg-1">
                             <img src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/attachments/delivery/asset/5d29a3dec5cf485cbcda2ef51804e88b-1596544984/goodneighborgreens_mileage2/do-gif-animation-for-banner-instagram-page-or-your-website.gif" alt="" srcset="" className="img-fluid" />
 
@@ -24,6 +26,8 @@ const Home = () => {
             </section>
 
             <OfferedItems></OfferedItems>
+            <MobileApp></MobileApp>
+            <NewsLetter></NewsLetter>
         </div>
 
     );

@@ -3,7 +3,7 @@
 This is the  Delivery Service Web app. Now You can get food faster.
 
 ## Website links
-Click Site :[Live Site](https://pizzon-assignment11.web.app/)
+Click Site :[Pizzon Live](https://pizzon-assignment11.web.app/)
 ![alt text](https://i.ibb.co/7nqj2PS/Fire-Shot-Capture-004-React-App-localhost.png)
 ![alt text](https://i.ibb.co/SdhmsyQ/Fire-Shot-Capture-005-React-App-localhost.png)
 

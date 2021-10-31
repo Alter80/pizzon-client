@@ -31,9 +31,9 @@ const AddService = () => {
     console.log(errors);
 
     return (
-        <div className='container'>
-            <h2 className='my-5'>Create A Service</h2>
-            <form className='border order-form p-5' onSubmit={handleSubmit(onSubmit)}>
+        <div className='container-fluid'>
+            <h2 className='my-5 mx-auto'>Create A Service</h2>
+            <form className='order-form p-5' onSubmit={handleSubmit(onSubmit)}>
                 <input className='p-3 px-5' type="url" placeholder="image" {...register("image", {})} /> <br /><br />
                 <input className='p-3 px-5' type="text" placeholder="foodName" {...register("foodName", {})} /> <br /> <br />
                 <input className='p-3 px-5' type="text" placeholder="description" {...register("description", {})} /> <br /><br />
