@@ -14,7 +14,7 @@ const Header = () => {
         <div className='mx-auto'>
             <Navbar bg="dark" expand="lg" sticky="top" >
                 <Container className='mx-auto my-2'><Link className='text-decoration-none text-white' to="/home">
-                    <Navbar.Brand href="#"> <img src='http://themes.templatescoder.com/pizzon/html/demo/1-0/images/header-logo.png' alt="" srcset="" height='50' width='auto' fluid /></Navbar.Brand></Link>
+                    <Navbar.Brand href="#"> <img src='https://i.ibb.co/7b9zwRf/header-logo.png' alt="" srcset="" height='50' width='auto' fluid /></Navbar.Brand></Link>
                     <Navbar.Toggle aria-controls="navbarScroll" />
 
                     <Navbar.Collapse id="navbarScroll">

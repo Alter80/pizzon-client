@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 const useData = () => {
     const [items, setItems] = useState([]);
 
-    const dataLocation = 'http://localhost:5000/services';
+    const dataLocation = 'https://wicked-ghost-54122.herokuapp.com/services';
 
     useEffect(() => {
         fetch(dataLocation)

@@ -15,7 +15,7 @@ const ItemDetails = () => {
 
     // data fetched 
     useEffect(() => {
-        const url = `http://localhost:5000/services/${id}`
+        const url = `https://wicked-ghost-54122.herokuapp.com/services/${id}`
         fetch(url)
             .then(res => res.json())
             .then(data => setItemDetails(data));
@@ -36,6 +36,7 @@ const ItemDetails = () => {
                             <Card.Title className="mt-5"><h3><strong>{foodName}</strong></h3></Card.Title>
 
                             <p className='text-start'> <strong className='text-muted'>Details: </strong>{description}</p>
+                            <h4 className='text-center'>Estimated Delivery time <br /> <span className='text-warning text-bold'>30 Mins</span></h4>
 
                             <h3>Now Priced at: <strong>${price}</strong></h3>
                         </Card.Text>

@@ -12,7 +12,7 @@ const useCart = () => {
     // let totalItem = [];
 
     useEffect(() => {
-        const url = `http://localhost:5000/services/`
+        const url = `https://wicked-ghost-54122.herokuapp.com/services/`
         // console.log(url)
         fetch(url)
             .then(res => res.json())
@@ -32,7 +32,7 @@ const useCart = () => {
 
         const data = { selectedThing, userMail, status };
 
-        fetch(`http://localhost:5000/addOrders`, {
+        fetch(`https://wicked-ghost-54122.herokuapp.com/addOrders`, {
             method: "POST",
             headers: { "content-type": "application/json" },
             body: JSON.stringify(data),

@@ -16,7 +16,7 @@ const ManageAllOrders = () => {
     const handleDelete = id => {
         const proceed = window.confirm('Are you sure you want to Update')
         if (proceed) {
-            const url = `http://localhost:5000/addOrders/${id}`
+            const url = `https://wicked-ghost-54122.herokuapp.com/addOrders/${id}`
             fetch(url, {
                 method: 'DELETE'
             })
@@ -36,7 +36,7 @@ const ManageAllOrders = () => {
     const handleUpdate = id => {
         const proceed = window.confirm('Are you sure you want to delete')
         if (proceed) {
-            const url = `http://localhost:5000/addOrders/${id}`
+            const url = `https://wicked-ghost-54122.herokuapp.com/addOrders/${id}`
             fetch(url, {
                 method: 'PUT'
             })

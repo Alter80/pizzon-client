@@ -46,6 +46,7 @@ const SingleItem = (props) => {
                                 <Card.Text>
                                     <h4 className='text-center text-muted'>Previous Price: $<del>{newOldPrice}</del></h4>
                                     <h4 className='text-center'>Offer Price: ${price}</h4>
+                                    <h5 className='text-center'>Estimated Delivery time <br /> <span className='text-warning text-bold'>30 Mins</span></h5>
                                 </Card.Text>
                             </Card.Body>
                         </Link>

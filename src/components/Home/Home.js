@@ -11,7 +11,7 @@ const Home = () => {
                 <div className="container">
                     <div className="row row align-items-center">
                         <div className="col-lg-5 offset-lg-1 order-lg-1">
-                            <img src="http://themes.templatescoder.com/pizzon/html/demo/1-0/images/pizza-banner-1.png" alt="" srcset="" className="img-fluid" />
+                            <img src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/attachments/delivery/asset/5d29a3dec5cf485cbcda2ef51804e88b-1596544984/goodneighborgreens_mileage2/do-gif-animation-for-banner-instagram-page-or-your-website.gif" alt="" srcset="" className="img-fluid" />
 
                         </div>
                         <div className="col-lg-6">

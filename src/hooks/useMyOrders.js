@@ -4,7 +4,7 @@ import { useEffect, useState } from "react"
 const useMyOrders = () => {
     const [selectedItems, setSeletctedItems] = useState([]);
 
-    const cartLocation = `http://localhost:5000/addOrders`;
+    const cartLocation = `https://wicked-ghost-54122.herokuapp.com/addOrders`;
 
     useEffect(() => {
         fetch(cartLocation)

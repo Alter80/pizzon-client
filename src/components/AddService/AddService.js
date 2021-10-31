@@ -8,7 +8,7 @@ const AddService = () => {
 
 
     const onSubmit = (inputData, e) => {
-        fetch('http://localhost:5000/services', {
+        fetch('https://wicked-ghost-54122.herokuapp.com/services', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
