@@ -56,9 +56,9 @@ function App() {
               <AddService></AddService>
             </PrivateRoute>
 
-            <PrivateRoute exact path='/myorders'>
+            <Route exact path='/myorders'>
               <MyOrders></MyOrders>
-            </PrivateRoute>
+            </Route>
 
             <Route exact path='/manageallorders'>
               <ManageAllOrders></ManageAllOrders>
